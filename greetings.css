@@ -1,0 +1,61 @@
+body {
+    
+    background-image: url(greetings.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 10px;
+   text-align: center;
+    font-size: 30px;
+}
+input[type="text"] {
+    padding: 10px;
+    font-size: 30px;
+    border: 1px solid #ccc;
+    color: rgb(76, 150, 119);
+    border-radius: 5px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:hover {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+#msg-op{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+::placeholder {
+    font-size: 34px;
+}
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+h2{
+    text-align: center;
+    align-items: center;
+    font-size: 60px;
+}
+label{
+    text-align: center;
+    align-items: center;
+}
+.button {
+    color: #ecf0f1;
+    font-size: 17px;
+    background-color: #e67e22;
+    border: 1px solid #f39c12;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 50px;
+    margin-left: 50px;
+    box-shadow: 0px 6px 0px #d35400;
+    transition: all .1s;
+   }
+   
+   .button:active {
+    box-shadow: 0px 2px 0px #d35400;
+    position: relative;
+    top: 2px;
+   }
